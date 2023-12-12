@@ -3,18 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
-/* reset */
 
+/* reset */
 
 .container {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
 
     justify-content: center;
-    
-    max-width: 1200px;
+
+    max-width: 1900px;
 
     margin-left: auto;
     margin-right: auto;
@@ -22,25 +22,25 @@
 }
 
 /* Navbar */
-.container nav{
+.container nav {
 
     display: flex;
+    justify-content: center;
     align-items: center;
 
     height: 80px;
 
-    padding: 15px 360px;
-    
     background-color: #add8e6;
-    
+
 }
+
 .logo, .links, .login {
     display: flex;
     align-items: center;
 }
 
 .logo {
-    
+
     justify-content: flex-start;
 
     width: 240px;
@@ -49,7 +49,7 @@
     background-color: #daa520;
 }
 
-.links{
+.links {
 
     justify-content: center;
 
@@ -59,7 +59,14 @@
     background-color: #daa520;
 }
 
-.login{
+.links a {
+    
+    text-decoration: none;
+    
+    padding: 2px;
+}
+
+.login {
 
     justify-content: flex-end;
 
@@ -68,13 +75,12 @@
 
     background-color: #daa520;
 }
-
 /* Fine navbar */
 
 
 /* header */
 
-header{
+header {
 
     display: flex;
     justify-content: center;
@@ -85,7 +91,7 @@ header{
     background-color: #00008b;
 }
 
-.quadrato{
+.quadrato {
     display: flex;
 
     width: 900px;
@@ -95,17 +101,18 @@ header{
 }
 /* Fine header */
 
-/* Sezione 1 */
-.prova{
+
+/* Prima sezione*/
+.prova {
     display: flex;
     justify-content: center;
     align-items: center;
 
-
-    padding: 60px;
+    height: 600px;
+    /* padding: 60px; */
 }
 
-.img{
+.img {
     display: flex;
 
     width: 715px;
@@ -114,7 +121,7 @@ header{
     background-color: #1e90ff;
 }
 
-.testo{
+.testo {
     display: flex;
 
     width: 475px;
@@ -126,4 +133,65 @@ header{
 .bg-gray {
     background-color: #d3d3d3;
 }
- /* fine sezione 1 */
+/* Fine prima sezione */
+
+
+/* Seconda sezione */
+.prova2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 990px;
+
+}
+
+.quadrato2 {
+    display: flex;
+
+    width: 1194px;
+    height: 895px;
+
+    background-color: #228b22;
+}
+/* Fine seconda sezione */
+
+
+/* Terza sezione */
+.verticale{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    height: 620px;
+
+    padding-top: 10px;
+}
+
+.verticale > div {
+
+    width: 210px;
+    height: 575px;
+
+    background-color: #20b2aa;
+}
+
+#principale{
+    width: 355px;
+
+    background-color: #f08080;
+}
+
+.bg-darkgray {
+    background-color: #23272a;
+}
+/* Fine terza sezione */
+
+
+/* Footer */
+
+
+
+/* Fine footer */
