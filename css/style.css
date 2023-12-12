@@ -192,6 +192,46 @@ header {
 
 /* Footer */
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 
+    height: 106px;
+
+}
+
+.pordefinir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1190px;
+    height: 82px;
+
+    background-color: #7fffd4;
+}
+
+.pordefinir .logo {
+
+    justify-content: center;
+
+    width: 68px;
+    height: 38px;
+
+    background-color: #ffb6c1;
+}
+
+.bottone {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 93px;
+    height: 36px;
+
+    background-color: #ffb6c1;
+}
 
 /* Fine footer */
