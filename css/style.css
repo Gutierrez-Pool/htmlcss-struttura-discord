@@ -7,14 +7,16 @@
 }
 
 /* reset */
-
+body {
+    font-family: sans-serif;
+}
 .container {
     display: flex;
     flex-direction: column;
 
     justify-content: center;
 
-    max-width: 1900px;
+    /* max-width: 1900px; */
 
     margin-left: auto;
     margin-right: auto;
@@ -37,8 +39,13 @@
 .logo, .links, .login {
     display: flex;
     align-items: center;
+
+    padding: 10px;
+
 }
 
+
+/* DA MIGLIORARE (?) CLASS LOGO */
 .logo {
 
     justify-content: flex-start;
@@ -48,6 +55,8 @@
 
     background-color: #daa520;
 }
+/* DA MIGLIORARE (?) CLASS LOGO */
+
 
 .links {
 
@@ -63,7 +72,7 @@
     
     text-decoration: none;
     
-    padding: 2px;
+    padding: 5px;
 }
 
 .login {
@@ -212,6 +221,8 @@ footer {
     background-color: #7fffd4;
 }
 
+
+/* DA MIGLIORARE (?) CLASS LOGO */
 .pordefinir .logo {
 
     justify-content: center;
@@ -221,6 +232,7 @@ footer {
 
     background-color: #ffb6c1;
 }
+/* DA MIGLIORARE (?) CLASS LOGO */
 
 .bottone {
 
@@ -233,5 +245,4 @@ footer {
 
     background-color: #ffb6c1;
 }
-
 /* Fine footer */
