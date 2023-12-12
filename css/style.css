@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    /* border: 1px red solid; */
+    border: 1px red solid;
 }
 /* reset */
 
@@ -20,12 +20,6 @@
     margin-right: auto;
 
 }
-
-/* .column {
-    display: flex;
-    flex-direction: column;
-
-} */
 
 /* Navbar */
 .container nav{
@@ -101,10 +95,35 @@ header{
 }
 /* Fine header */
 
-
-.row{
+/* Sezione 1 */
+.prova{
     display: flex;
     justify-content: center;
     align-items: center;
 
+
+    padding: 60px;
 }
+
+.img{
+    display: flex;
+
+    width: 715px;
+    height: 500px;
+
+    background-color: #1e90ff;
+}
+
+.testo{
+    display: flex;
+
+    width: 475px;
+    height: 500px;
+
+    background-color: #ffc0cb;
+}
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+ /* fine sezione 1 */
